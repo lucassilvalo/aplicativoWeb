@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href="index.css" rel="stylesheet">
+  <meta 
+    charset="UTF-8"
+    http-equiv="Content-Security-Policy" 
+    content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline';"
+  >
+  <title>Kiosk</title>
+  <!-- <img id="teste"></img> --> 
+</head> 
+<body>
+  
+  <div id="container">
+      <div id="div-logo"> 
+        <img id="logo" src="rss/cm.png">
+      </div>
+      <div id="div-texto">
+        <p id="noticias">elos • Balsemão diz que Rio e Rangel são "muito válidos" e não revela quem apoia • A revista "Evasões" desta semana: Teste de continuidade de texto para esta div </p>
+      </div>  
+      <div id="div-data">  
+        <p id="data">18/11/2021</p>
+        <P id="clock">10:33</P>
+      </div>                
+  </div>
+
+  <div id="slides">
+    <div id="slider">
+       <div id="sliders">          
+       </div>
+    </div>
+  </div>
+
+  <div id="container-footer">  
+      <div id="container-btn">      
+        <div class="div-icons">
+          <a href="#"><img class="icons" src="icons-buttons/btn-1.png"></a>
+        </div>
+        <div class="div-icons">
+          <a href="https://agriloja.pt/"><img class="icons" src="icons-buttons/btn-2.png"></a>
+        </div>          
+        <div class="div-icons">
+          <a href="videos.html"><img class="icons" src="icons-buttons/btn-3.png"></a>     
+        </div>        
+    </div>
+
+  </div>
+</body>
+<script  type="module" src="./src/slide/requireSlide.js"></script>
+<script  type="module" src="./src/slide/moveSlide.js"></script>
+
+</html>

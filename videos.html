@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+  <meta 
+    charset="UTF-8"
+    http-equiv="Content-Security-Policy" 
+    content="default-src *; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline';"
+  >
+  <style>         
+        *{
+          margin: 0; padding: 0;
+        }   
+        html{
+          font-size: 62.5%;
+        }
+        body{
+          background-color: yellowgreen;
+        }
+        .container .heading{
+          font-size: 3rem;
+          margin: 2rem 0;
+          text-transform: capitalize;
+          color: var(--purple);
+          font-family: Verdana, Geneva, Tahoma, sans-serif;
+          letter-spacing: 2rem;
+          text-align: center;
+          text-shadow: 0 .3rem .5rem rgba(0,0,0);
+        }
+        
+                     
+        /*
+        #container-footer{
+          position: fixed;
+          top: 80vh;
+          z-index:100;
+          display: flex;
+          background-color: #FFF;
+          width: 100vw;
+          height: max-content;  
+        }
+        #div-buttons{
+          background-color: #FFF;
+          width: 100vw;
+          height: 80px;          
+        }
+        #container-btn{
+          width: 100vw;
+          height: 90px;   
+          display: flex; 
+          position: absolute;   
+          justify-content: center;   
+          background-color: #fff;
+        }
+        .div-icons{ 
+          padding-top: 12px;
+          padding-bottom: 12px;
+          width: 70px;        
+          margin-left: 5%;
+          margin-right: 5%;
+        }
+        .icons, a{     
+          width: 70px;
+          height: 60px; 
+          display: block;
+          margin-left: auto;
+          margin-right: auto;    
+          transition:  all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+          opacity: 1;
+          transition: opacity .2s ease-out;   
+        } 
+        .icons:hover{
+          transform: scale(1.08, 1.08);   
+          animation: fadeinout 1.5s linear 1 forwards;    
+        }
+        a:focus{
+          outline: none;
+          transform: scale(1.08, 1.08);   
+          animation: fadeinout 1.5s linear 1 forwards;
+        }
+        @keyframes fadeinout {
+        50% { opacity: 1; }
+        0% { opacity: 0.50; }
+        50% { opacity: 1; }
+        }
+        */
+  </style>
+
+  <title>Videos</title>
+  <!-- <img id="teste"></img> --> 
+</head> 
+<body>
+ 
+  <div class="video">
+    <video src="video/video3.mp4" muted></video>
+  </div>
+
+  <div class="container">
+      <div class="heading">Agriloja</div>
+
+        <div class="video-container">
+
+          <div class="video">
+            <video src="video/video3.mp4" muted></video>
+          </div>
+
+          <div class="video">
+            <video src="video/video2.mp4" muted></video>
+          </div>
+
+          <div class="video">
+            <video src="video/video3.mp4" muted></video>
+          </div>
+
+          <div class="video">
+            <video src="video/video4.mp4" muted></video>
+          </div>
+
+          <div class="video">
+            <video src="video/video5.mp4" muted></video>
+          </div>
+        
+        
+      </div> 
+  </div>
+
+    <!--
+    <div id="container-footer">  
+        <div id="container-btn">      
+          <div class="div-icons">
+            <a href="#"><img class="icons" src="icons-buttons/btn-1.png"></a>
+          </div>
+          <div class="div-icons">
+            <a href="https://agriloja.pt/"><img class="icons" src="icons-buttons/btn-2.png"></a>
+          </div>          
+          <div class="div-icons">
+            <a href="videos.html"><img class="icons" src="icons-buttons/btn-3.png"></a>     
+          </div>        
+      </div>   
+    </div>
+      -->
+
+</body>
+<script  type="module" src="./src/slide/requireSlide.js"></script>
+<script  type="module" src="./src/slide/moveSlide.js"></script>
+
+</html>
